@@ -39,3 +39,5 @@ with open("C:/Users/Gebruiker/OneDrive/Bureaublad/ICT/read-files/README.md") as 
         print(line)
         time.sleep(1)
 ```
+## F1.09.01.O3 - Install PyYAML
+pyYAML geinstalleerd
