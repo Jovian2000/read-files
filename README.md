@@ -27,4 +27,5 @@ content = file.readlines()
 for line in content:
     print(line)
     time.sleep(1)
+file.close()
 ```
