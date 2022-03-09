@@ -63,3 +63,4 @@ with open("C:/Users/Gebruiker/OneDrive/Bureaublad/ICT/read-files/settings.yml", 
     for d,v in docs.items():
         print(d,v)
 ```
+(Ik heb de oude papi gelato programma van leerpad 5 gebruikt, ik heb leerpad 8.4 nog niet gedaan.)
