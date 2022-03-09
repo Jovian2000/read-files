@@ -41,3 +41,25 @@ with open("C:/Users/Gebruiker/OneDrive/Bureaublad/ICT/read-files/README.md") as 
 ```
 ## F1.09.01.O3 - Install PyYAML
 pyYAML geinstalleerd
+## F1.09.01.O4 - Nieuwe prijzen, dus nieuwe settings
+papi-gelato is nu aangepast, dit zijn nu de prijzen
+``` python
+prijsBolletje = 0.95
+prijsHoorntje = 1.25
+prijsBakje = 0.80
+prijsSlagroom = 0.55
+prijsSprinkels = 0.30
+prijsCaramelsausHorn = 0.60
+prijsCaramelsausBak = 0.80
+
+prijsPerLiter = 8.99
+btw = 0.06 
+```
+dit is de code voor het lezen van het yaml bestand
+``` python
+with open("C:/Users/Gebruiker/OneDrive/Bureaublad/ICT/read-files/settings.yml", "r") as file:
+    docs = yaml.safe_load(file)
+    print(type(docs))
+    for d,v in docs.items():
+        print(d,v)
+```
