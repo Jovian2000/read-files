@@ -1,6 +1,6 @@
 import yaml
 
-with open("C:/Users/Gebruiker/OneDrive/Bureaublad/ICT/read-files/settings.yml", "r") as file:
+with open("C:/ICT/read-files/settings.yml", "r") as file:
     docs = yaml.safe_load(file)
     print(type(docs))
     for d,v in docs.items():

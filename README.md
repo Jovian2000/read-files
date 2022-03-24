@@ -34,7 +34,7 @@ hier heb ik de progamma aangepast en with gebruikt
 ``` python
 import time
 
-with open("C:/Users/Gebruiker/OneDrive/Bureaublad/ICT/read-files/README.md") as file:
+with open("C:/ICT/read-files/README.md") as file:
     for line in file:
         print(line)
         time.sleep(1)
@@ -57,7 +57,7 @@ btw = 0.06
 ```
 dit is de code voor het lezen van het yaml bestand
 ``` python
-with open("C:/Users/Gebruiker/OneDrive/Bureaublad/ICT/read-files/settings.yml", "r") as file:
+with open("C:/ICT/read-files/settings.yml", "r") as file:
     docs = yaml.safe_load(file)
     print(type(docs))
     for d,v in docs.items():
