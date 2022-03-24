@@ -22,7 +22,7 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ``` python
 import time
-file = open('C:/Users/Gebruiker/OneDrive/Bureaublad/ICT/read-files/README.md', 'r')
+file = open('C:/ICT/read-files/README.md', 'r')
 content = file.readlines()
 for line in content:
     print(line)
